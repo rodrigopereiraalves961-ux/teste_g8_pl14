@@ -50,7 +50,7 @@ public class Bola {
      * @param dt duração do deslocamento, em segundos
      */
     public void mover(double dt) {
-        setPosicao(x - vx * dt, y - vy * dt);
+        setPosicao(x + vx * dt, y + vy * dt);
     }
 
     /**
